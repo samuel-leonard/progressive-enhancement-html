@@ -1,0 +1,145 @@
+p {
+	font-family: 'Open Sans', sans-serif;;
+	font-size:1.2em;
+	line-height: 1.3em;
+	color:color : #A9A9A9;
+}
+
+a{
+	font-size: 1.6em;
+	color :blue ;
+	outline: none;
+  	text-decoration: none;
+  	font-family: 'Open Sans', sans-serif;
+} 
+
+a:visited{
+	font-style:italic;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{text-shadow: #FC0 1px 0 10px;
+
+}
+*{font-family: 'Open Sans', sans-serif;}
+
+body{
+	max-width: 90%;
+	margin:auto;
+	background: -webkit-linear-gradient(1deg, rgb(67, 77, 80), rgb(203, 239, 236));
+	background: linear-gradient(1deg, rgb(67, 77, 80), rgb(203, 239, 236));
+	background-image: url(../picture/backgroundbulle1.jpeg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size:cover;
+	font-family: 'Open Sans', sans-serif;
+
+}
+blockquote{
+	width: 50%;
+	margin-top: 0%;
+    margin-right: 25%;
+    margin-bottom: 0%;
+    margin-left: 25%;
+	margin:auto;
+	font-size:160%;
+	background-color: #C0C0C0;
+	border-left:3px #842e1b solid;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:80px;
+	padding-bottom: 80px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li{
+	color:#2F4F4F;
+	line-height: 2em;
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+
+}
+header > h2{background-color:yellow;}
+
+table {
+		border: 1px solid black;
+
+}
+
+strong{text-transform: uppercase;
+
+}
+
+img {	
+		float:left;
+		padding: 10px;
+		width:85%;
+}
+hr{	
+	margin: 80px;
+}
+
+caption{
+	caption-side: bottom;
+}
+
+	/*  class */
+
+
+.villageois {	border-left:2px solid red;
+				
+										
+}
+.fermier {		border-left:2px solid black;
+}
+.mal {
+	color: red;
+}
+
+.bien {color: green;
+}
+
+.gris 	{	background-color: grey;
+}
+
+.blanc	{	background-color: white;	
+
+} 
+
+.good	{	background-image: url(../picture/bien.png);
+			background-repeat: no-repeat;
+			background-size: 25px;
+			padding-left: 40px
+
+
+}
+
+.wrong {	background-image: url(../picture/mal.png);
+			background-repeat: no-repeat;
+			background-size: 25px;
+			padding-left: 40px;
+
+
+
+
+}
+
+.cat {		background-image: url(../picture/chat.png);
+			background-repeat: no-repeat;
+			background-size: 25px;
+			padding-left: 40px;
+
+
+}
+
+.decay{		padding-left: 40px;
+
+}
+
+.rocher {
+font-weight: bold;
+
+
+}
